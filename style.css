@@ -1,0 +1,52 @@
+@font-face{
+    font-family: "quicksand";
+    src: url(fonts/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "spaceg";
+    src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:"lemonmilk";
+    src: url(fonts/LEMONMILK-Regular.otf);
+}
+
+:root{
+
+    --rosa-nehorp: #F2A0D2;
+    --verde-nehop: #C0E928;
+    --rosaescuro-nehorp: #C62F94;
+}
+
+header img{
+        width: 290px;
+}
+
+.container-grid{
+    justify-content: space-between;
+    display: flex;
+}
+
+.menu{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu a{
+    font-family: "spaceg";
+    font-size: 20px;
+
+    color: black;
+
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+
+    transition: text-decoration 500ms ease;
+
+}
+
+.menu a :hover{
+
+}
