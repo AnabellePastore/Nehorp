@@ -18,6 +18,25 @@
     --rosaescuro-nehorp: #C62F94;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+.banner{
+    height: 150px;
+
+    background-color: white;
+
+    margin-bottom: 100px;
+}
+
 header img{
         width: 290px;
 }
@@ -25,18 +44,30 @@ header img{
 .container-grid{
     justify-content: space-between;
     display: flex;
+
+    margin: 0 auto;
+
+
+    
 }
 
 .menu{
-    width: 700px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+
+    margin-top: 50px;
 }
 
 
+#busca{
+    border-radius: 80px;
+
+}
+
 .menu a{
     font-family: "spaceg";
-    font-size: 20px;
+    font-size: 25px;
 
     color: black;
 
@@ -47,6 +78,89 @@ header img{
 
 }
 
-.menu a :hover{
+
+#portifolio{
+    background-image: url(img/Captura\ de\ tela\ 2024-03-27\ 154705.png);
+    height: 806px;
+    background-repeat: no-repeat;
+    width:100%;
+    background-size:100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
 
 }
+
+    #portifolio p {
+
+        font-family: 'lemonmilk';
+        font-size: 60px;
+
+        background-color: var(--rosa-nehorp);
+
+        font-weight: bold
+    }
+        .t1{
+            text-align: center;
+
+            margin-bottom: 10px;
+        }
+
+        .t2{
+            text-align: center;
+        }
+
+        button{
+            font-family: "lemonmilk";
+            font-size: 20px;
+            color: white;
+
+            margin-top: 20px;
+
+            background-color: black;
+
+            height: 40px;
+            width: 20%;
+        
+            font-weight: 600;
+
+            border: none;
+            border-radius: 50px;
+            text-transform: uppercase;
+        }
+        button:hover {
+            background-color:var(--rosaescuro-nehorp);
+        
+            cursor: pointer;
+        }
+
+#cases{
+    height: 684px;
+}
+
+h2{
+    font-family: "lemonmilk";
+    font-size: 40px;
+
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    background-color: #C0E928;
+
+    width: 65%;
+    height: 70px;
+
+    border-radius: 15px;
+
+    margin-left: 100px;
+}
+
+    
+
