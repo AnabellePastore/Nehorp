@@ -1,17 +1,19 @@
-@font-face{
+@font-face {
     font-family: "quicksand";
     src: url(fonts/Quicksand-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: "spaceg";
     src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf);
 }
+
 @font-face {
-    font-family:"lemonmilk";
+    font-family: "lemonmilk";
     src: url(fonts/LEMONMILK-Regular.otf);
 }
 
-:root{
+:root {
 
     --rosa-nehorp: #F2A0D2;
     --verde-nehop: #C0E928;
@@ -25,11 +27,11 @@
 }
 
 
-body{
+body {
     background-color: black;
 }
 
-.banner{
+.banner {
     height: 150px;
 
     background-color: white;
@@ -37,11 +39,11 @@ body{
     margin-bottom: 100px;
 }
 
-header img{
-        width: 290px;
+header img {
+    width: 290px;
 }
 
-.container-grid{
+.container-grid {
     justify-content: space-between;
     display: flex;
 
@@ -49,7 +51,7 @@ header img{
 
 }
 
-.menu{
+.menu {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -58,12 +60,12 @@ header img{
 }
 
 
-#busca{
+#busca {
     border-radius: 80px;
 
 }
 
-.menu a{
+.menu a {
     font-family: "spaceg";
     font-size: 20px;
 
@@ -82,12 +84,12 @@ header img{
 
 
 
-#portifolio{
+#portifolio {
     background-image: url(img/Captura\ de\ tela\ 2024-03-27\ 154705.png);
     height: 806px;
     background-repeat: no-repeat;
-    width:100%;
-    background-size:100%;
+    width: 100%;
+    background-size: 100%;
 
     display: flex;
     flex-direction: column;
@@ -97,80 +99,82 @@ header img{
 
 }
 
-    #portifolio p {
+#portifolio p {
 
-        font-family: 'lemonmilk';
-        font-size: 60px;
+    font-family: 'lemonmilk';
+    font-size: 60px;
 
-        background-color: var(--rosa-nehorp);
+    background-color: var(--rosa-nehorp);
 
-        font-weight: bold
-    }
-        .t1{
-            text-align: center;
-
-            margin-bottom: 10px;
-        }
-
-        .t2{
-            text-align: center;
-        }
-
-        button{
-            font-family: "lemonmilk";
-            font-size: 20px;
-            color: white;
-
-            margin-top: 20px;
-
-            background-color: black;
-
-            height: 40px;
-            width: 20%;
-        
-            font-weight: 600;
-
-            border: none;
-            border-radius: 50px;
-            text-transform: uppercase;
-        }
-        button:hover {
-            background-color:var(--rosaescuro-nehorp);
-        
-            cursor: pointer;
-        }
-
-
-
-
-
-
-
-
-
-
-#cases{
-    height: 684px;
-    
+    font-weight: bold
 }
 
-#cases h2{
+.t1 {
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.t2 {
+    text-align: center;
+}
+
+button {
+    font-family: "lemonmilk";
+    font-size: 20px;
+    color: white;
+
+    margin-top: 20px;
+
+    background-color: black;
+
+    height: 40px;
+    width: 20%;
+
+    font-weight: 600;
+
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: var(--rosaescuro-nehorp);
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+#cases {
+    height: 684px;
+
+}
+
+#cases h2 {
     font-family: "lemonmilk";
     font-size: 40px;
-        
+
     color: black;
-     
+
     background-color: #C0E928;
-        
+
     width: 100%;
     height: 70px;
-        
+
 
     border-radius: 7px;
 
     margin-top: 70px;
 
-    }
+}
 
 #cases {
 
@@ -181,7 +185,7 @@ header img{
     flex-direction: column;
 }
 
-#cases.container-grid{
+#cases.container-grid {
     width: 100%;
 }
 
@@ -195,6 +199,7 @@ header img{
     display: flex;
     justify-content: space-evenly;
 }
+
 .card {
     height: 400px;
     width: 250px;
@@ -214,6 +219,7 @@ header img{
     background-color: #C0E928;
 
 }
+
 .card img {
     height: 55%;
     width: 100%;
@@ -266,61 +272,251 @@ header img{
 
 
 
-#sobre h2{
+#sobre h2 {
     font-family: "lemonmilk";
     font-size: 40px;
-        
+
     color: black;
-     
+
     background-color: #C0E928;
-        
+
     width: 100%;
     height: 70px;
-        
+
 
     border-radius: 7px;
 
     margin-top: 70px;
-    }
-
-
-    .texto{
-        color: white;
-        font-family: "spaceg";
-        font-size: 20px;
-    
-        padding: 100px 25%;
-
-        display: flex;
-        flex-direction: column;
-
-        text-align: center;
-
-        margin-left: 250px;
-        margin-right: 250px;
-
-    }
-
-    #sobre{
-        height: 800px;
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        text-align: center;
-        padding: 100px 25%;
-
-
-    }
-    
-    
-    
+}
 
 
 
+#sobre {
+    height: 800px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+    padding: 100px 25%;
+
+}
+
+.texto {
+    font-family: "quicksand";
+    font-size: 20px;
+    color: white;
+
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    left: 200px;
+
+}
+
+.texto .textos {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    left: 50px;
 
 
-    
+}
 
+.texto .img-texto img {
+
+    position: relative;
+    top: 100px;
+    height: 700px;
+    width: 600px;
+
+
+}
+
+
+
+
+
+
+
+#contato {
+    text-align: center;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#contato h2 {
+    margin-bottom: 90px;
+
+}
+
+#formulario form {
+    width: 50%;
+
+    margin: 0 auto;
+    padding: 60px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 80px;
+
+    background-color: var(--rosa-nehorp);
+
+    color: black;
+
+    font-family: "spaceg";
+}
+
+.campo label {
+    margin-bottom: 15px;
+    font-size: 20px;
+
+
+}
+
+.campo {
+    width: 60%;
+
+    margin-bottom: 50px;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.campo input {
+    height: 40px;
+
+    color: black;
+    background-color: white;
+
+    border: none;
+    border-radius: 30px;
+
+    outline: none;
+
+
+    text-indent: 10px;
+
+    font-family: "spaceg";
+    font-size: 17px;
+
+
+}
+
+.campo-textarea {
+    width: 60%;
+
+    margin-bottom: 30px;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.campo-textarea textarea {
+
+    color: black;
+    background-color: white;
+
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+
+    outline: none;
+    resize: none;
+
+    font-family: "spaceg";
+    font-size: 17px;
+}
+
+
+
+
+#botao-formulario {
+    width: 50%;
+    height: 40px;
+    background-color: black;
+
+    border: none;
+    border-radius: 50px;
+    color: white;
+
+    font-family: "lemonmilk";
+    font-size: 17px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+#botao-formulario :hover {
+    background-color: var(--rosaescuro-nehorp);
+
+    cursor: pointer;
+}
+
+
+/* -------------------------- */
+
+h3 {
+    font-family: "spaceg";
+    font-size: 20px;
+
+    color: white;
+
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+.redes-sociais p {
+    font-family: "lemonmilk";
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+footer {
+
+    height: 600px;
+
+    background-color: white;
+
+    margin-top: 70px;
+
+    flex-direction: row;
+   
+}
+
+footer img {
+    height: 10%;
+
+}
+
+.icones-redes{
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+
+    width: 50;
+
+}
