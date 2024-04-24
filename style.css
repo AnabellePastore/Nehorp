@@ -267,9 +267,20 @@ button:hover {
 
 
 
+.img-fundo{
+    height: 800px;
+    width: 100%;
+    background-image: url(./img/Design-sem-nome-_1_.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
 
+}
 
-
+#sobre p{
+    font-family: "quicksand";
+    font-size: 20px;
+    color: black;
+}
 
 
 #sobre h2 {
@@ -285,23 +296,6 @@ button:hover {
 
 
     border-radius: 7px;
-
-    margin-top: 70px;
-}
-
-
-
-#sobre {
-    height: 800px;
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    text-align: center;
-    padding: 100px 25%;
-
 }
 
 .texto {
@@ -316,7 +310,7 @@ button:hover {
     align-items: center;
 
     position: relative;
-    left: 200px;
+
 
 }
 
@@ -326,18 +320,20 @@ button:hover {
     flex-direction: column;
     width: 50%;
     position: relative;
-    left: 50px;
+    
 
 
 }
 
-.texto .img-texto img {
+ .banner-video{
+    width: 100% ;
 
-    position: relative;
-    top: 100px;
-    height: 700px;
-    width: 600px;
+    display: flex;
+    
+    justify-content: center;
 
+    top: 0;
+    bottom: 0;
 
 }
 
@@ -475,48 +471,18 @@ button:hover {
 
 /* -------------------------- */
 
-h3 {
-    font-family: "spaceg";
-    font-size: 20px;
 
-    color: white;
 
-    position: relative;
-    bottom: 20px;
+#footer{
+    height: 400px;
+    width: 100%;
 }
-
-
-
-.redes-sociais p {
-    font-family: "lemonmilk";
-    font-size: 20px;
-
-    display: flex;
-    align-items: center;
-}
-
-footer {
-
-    height: 600px;
-
-    background-color: white;
-
-    margin-top: 70px;
-
-    flex-direction: row;
-   
-}
-
-footer img {
-    height: 10%;
+.textol{
+    width: 400px;
+    height: 10px;
 
 }
-
-.icones-redes{
-    display: flex;
-    justify-content: left;
-    justify-content: space-between;
-
-    width: 50;
-
+.logol img{
+    width: 40px;
+    height: 20px;
 }
