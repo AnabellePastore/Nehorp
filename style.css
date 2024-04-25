@@ -39,6 +39,26 @@ body {
     margin-bottom: 100px;
 }
 
+#txtBusca{
+    background-color: black;
+    border-radius: 20px;
+
+    height: 30px;
+    width: 200px;
+
+    color: white;
+    font-family: "spaceg";
+    margin-right: 30px;
+
+    text-indent: 5px;
+
+}
+   
+ ::placeholder{
+
+    margin-left: 3px;
+}
+
 header img {
     width: 290px;
 }
@@ -268,20 +288,13 @@ button:hover {
 
 
 .img-fundo{
-    height: 800px;
+    height: 1000px;
     width: 100%;
     background-image: url(./img/Design-sem-nome-_1_.gif);
     background-size: 100%;
     background-repeat: no-repeat;
 
 }
-
-#sobre p{
-    font-family: "quicksand";
-    font-size: 20px;
-    color: black;
-}
-
 
 #sobre h2 {
     font-family: "lemonmilk";
@@ -292,41 +305,36 @@ button:hover {
     background-color: #C0E928;
 
     width: 100%;
-    height: 70px;
+    height: 60px;
 
 
     border-radius: 7px;
 }
 
-.texto {
+ .textos {
     font-family: "quicksand";
     font-size: 20px;
-    color: white;
-
-    width: 80%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    position: relative;
-
-
-}
-
-.texto .textos {
+    color: black;
+    font-weight: bold;
 
     display: flex;
     flex-direction: column;
-    width: 50%;
-    position: relative;
-    
+
+    width: 40%;
+
+    margin: 0 350px 0 370px ;
+
+    text-align: left;
+
+
 
 
 }
 
+
  .banner-video{
     width: 100% ;
+    height: 100%;
 
     display: flex;
     
@@ -337,22 +345,40 @@ button:hover {
 
 }
 
+ .p1{
+    margin-top: 170px;
+
+    width: 400px;
+ }
 
 
 
 
 
 
-#contato {
+
+#formulario {
     text-align: center;
 
     padding-bottom: 100px;
     margin-bottom: 100px;
 }
 
-#contato h2 {
-    margin-bottom: 90px;
 
+#formulario h2 {
+    margin-bottom: 90px;
+    margin-top: 0;
+     
+    height: 55px;
+}
+
+h3{
+    font-family: "spaceg";
+    font-size: 30px;
+
+    color: white;
+
+    margin-bottom: 50px;
 }
 
 #formulario form {
@@ -424,6 +450,12 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    font-size: 20px;
+}
+
+.campo-textarea label{
+    margin-bottom: 15px;
 }
 
 
@@ -473,16 +505,80 @@ button:hover {
 
 
 
-#footer{
-    height: 400px;
+footer{
+    height: 700px;
     width: 100%;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
 }
 .textol{
     width: 400px;
-    height: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+}
+
+.termos a{
+
+    font-size: 16px;
+    font-family: "spaceg";
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    text-align: left;
+
+    margin: 15px 0 15px 50px;
+
+    width: 200px;
 }
 .logol img{
     width: 40px;
     height: 20px;
+
+   
+
 }
+
+.logol{
+    display: flex;
+    align-items: end;
+
+}
+
+.redes-sociais{
+
+    display: flex;
+    align-items: left;
+
+    width: 50%;
+    flex-direction: column;
+
+}
+
+.titu{
+    font-family: "lemonmilk";
+    font-size: 30px;
+    font-weight: bold;
+
+    margin-top: 20px;
+}
+ .icones-redes svg{
+    width: 50px;
+    height: 100%;
+
+    justify-content: space-between;
+
+    
+    
+
+   
+    
+ }
