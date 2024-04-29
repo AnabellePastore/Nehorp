@@ -296,7 +296,7 @@ button:hover {
 .img-fundo {
     height: 1000px;
     width: 100%;
-    background-image: url(./img/Design-sem-nome-_1_.gif);
+    background-image: url(img/Design\ sem\ nome.gif);
     background-size: 100%;
     background-repeat: no-repeat;
 
@@ -328,15 +328,16 @@ button:hover {
 
     width: 40%;
 
-    margin: 0 400px 0 370px;
 
     text-align: left;
-
-
-
-
+    margin-left: 30%;
+    text-align: center;
+    justify-content: center;
+    
 }
-
+#sobre .p1{
+    margin-top: 30%;
+}
 
 .banner-video {
     width: 100%;
@@ -351,11 +352,7 @@ button:hover {
 
 }
 
-.p1 {
-    margin-top: 170px;
 
-    width: 400px;
-}
 
 
 
@@ -621,7 +618,7 @@ footer {
 }
 
 .textos {
-    margin: 0 0 0 320px;
+    
 
 }
 
@@ -646,7 +643,7 @@ footer {
     .textos {
         height: 460px;
 
-        margin: 0 0 0 310px;
+        
     }
 }
 
@@ -661,11 +658,15 @@ footer {
     .textos {
         height: unset;
 
-        margin: 0 auto;
+       
         width: 535px;
         padding-right: 15%;
+        
+        margin-top: 0;
     }
-
+.p1{
+    margin-top: 20%;
+}
     #cases {
         height: unset;
 
@@ -694,8 +695,8 @@ footer {
         width: 100%;
     }
 
-    .p1 {
-        margin-top: 60px;
+    #formulario form{
+        width: unset;
     }
 }
 
@@ -770,14 +771,35 @@ footer {
 
     #sobre {
         height: unset;
-    
+        
+       
        
     }
-    #sobre p{
-        font-size: 15px;
+    #sobre .img-fundo{
+        background: none;
+        
+       
     }
     .textos{
-        margin-left: 205px;
+        display: flex;
+        align-items: center;
+        padding-right: 30%;
+        margin-bottom: 70px;
+        
+        
+    }
+    
+    
+    
+
+     p{
+        font-family: "quicksand";
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        
+       
+
     }
 
     .banner {
@@ -827,38 +849,13 @@ footer {
 }
 
 
-@media screen and (max-width:640px) {
-    #sobre {
-        height: unset;
-        margin-bottom: 40px;
+@media screen and (max-width:610px) {
+   footer .redes-sociais{
+    width: 90%;
+   }
     }
 
-    #sobre h2 {
-        margin-bottom: 50px;
-    }
 
-    #sobre p {
-        margin-bottom: 30px;
-    }
-
-    #cases,
-    #contato {
-        margin-bottom: unset;
-    }
-
-    #portifolio a {
-        width: 100%;
-        text-align: center;
-    }
-
-    .campo,
-    .campo-textarea,
-    #contato form button {
-        width: 75%;
-
-    }
-
-}
 
 
 @media screen and (max-width: 500px) {
@@ -936,6 +933,10 @@ footer {
     #contato form {
         width: 100%;
         border-radius: 0;
+    }
+
+    #footer .redes-sociais{
+        width: 90%;
     }
 }
 
