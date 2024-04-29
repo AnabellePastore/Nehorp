@@ -79,6 +79,12 @@ header img {
     margin-top: 50px;
 }
 
+header svg {
+
+ 
+
+}
+
 
 #busca {
     border-radius: 80px;
@@ -322,7 +328,7 @@ button:hover {
 
     width: 40%;
 
-    margin: 0 350px 0 370px;
+    margin: 0 400px 0 370px;
 
     text-align: left;
 
@@ -602,7 +608,8 @@ footer {
     }
 
     header svg {
-        fill: white;
+        fill: black;
+        display: unset;
     }
 
 
@@ -763,7 +770,14 @@ footer {
 
     #sobre {
         height: unset;
-        margin-left: 60px;
+    
+       
+    }
+    #sobre p{
+        font-size: 15px;
+    }
+    .textos{
+        margin-left: 205px;
     }
 
     .banner {
