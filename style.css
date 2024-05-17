@@ -79,9 +79,9 @@ header img {
     margin-top: 50px;
 }
 
-header svg {
+header button {
 
- 
+ display: none;
 
 }
 
@@ -588,6 +588,33 @@ footer {
     text-decoration: none;
 }
 
+
+.menu-fechado{
+    display: none;
+}
+#icone-barras{
+    display: none;
+}
+#icone-barras{
+    width: 50px;
+    height: 100%;
+
+    background: none;
+}
+#icone-x{
+    width: 50px;
+    height: 100%;
+
+    background: none;
+}
+
+#icone-x button{
+    display: none;
+}
+
+#icone-barras button{
+    display: none;
+}
 
 
 @media screen and (max-width: 1300px) {

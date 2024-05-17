@@ -8,6 +8,7 @@
 
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
 </head>
 
@@ -16,7 +17,7 @@
         <header>
             <div class="container-grid">
                 <img src="img/logo nehorp.png" alt="logo da empresa Nehorp">
-                <nav class="menu">
+                <nav  id="menu" class="menu">
                     <a href="sobre">Sobre</a>
                     <a href="cases">Cases de Sucesso</a>
                     <a href="portifolio">Portfólio</a>
@@ -29,11 +30,17 @@
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M14.001 3.40001C8.57062 3.40001 4.16841 7.87515 4.16841 13.3955C4.16841 18.9159 8.57062 23.391 14.001 23.391C19.4314 23.391 23.8336 18.9159 23.8336 13.3955C23.8336 7.87515 19.4314 3.40001 14.001 3.40001ZM0.890869 13.3955C0.890869 6.03502 6.76048 0.0681763 14.001 0.0681763C21.2416 0.0681763 27.1112 6.03502 27.1112 13.3955C27.1112 16.4753 26.0835 19.3112 24.3579 21.5678L29.9087 27.2108C30.5487 27.8613 30.5487 28.9162 29.9087 29.5667C29.2688 30.2173 28.2311 30.2173 27.5912 29.5667L22.0402 23.9239C19.8203 25.6782 17.0306 26.7228 14.001 26.7228C6.76048 26.7228 0.890869 20.756 0.890869 13.3955Z" fill="white"/>
                             </svg>
                         
-                        
-                            
-                        
                     </div>
+
                 </nav>
+
+
+                <button onclick="abrirFecharMenu()">
+                    <svg  id="icone-barras" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#000000" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    <svg  id="icone-x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#000000" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+
+
+                </button>
             </div>
         </header>
     </div>
