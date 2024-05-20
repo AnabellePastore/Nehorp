@@ -732,6 +732,10 @@ footer {
 
 
 @media screen and (max-width: 1080px) {
+
+    
+
+
     .container-cards {
         flex-wrap: wrap;
 
@@ -771,6 +775,18 @@ footer {
         align-items: center;
     }
 }
+
+
+@media screen and (max-widht: 970px){
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+  
+} 
+    
+
 
 @media screen and (max-width: 873px) {
     .card {
